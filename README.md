@@ -3,7 +3,7 @@
 ## 1. **namespace algotest** (all small letters with "_" if more than one word)
    It is recommended to store all classes in namespace retouch in "retouch" folder
 
-## 2. **class RetouchAlgorithm** (Each word starts from a capital letter)
+## 2. **class SomeAlgorithm** (Each word starts from a capital letter)
    .h and .cpp file name should correspond to the main class in the file (RetouchAlgorithm.h RetouchAlgorithm.cpp)
    .h file can contain several class definitions if they are auxiliary for the main class
 
