@@ -31,6 +31,8 @@
 
 ## 11. **local variables i,j, some_variable** (lower case, _ separated)
 
+## 12. **g_global_variable** (global variables start with g_)
+	Note: avoid global variables
 
 # **---------------- Additionals -------------------**
 
