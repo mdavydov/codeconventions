@@ -137,7 +137,7 @@ SomeClass.h
  public:
 	virtual ~SomeClass();
 	virtual int someFunc()=0;
-	static SomeClass ** createSomeClass();
+	static SomeClass * createSomeClass();
  };
 
 
@@ -151,7 +151,7 @@ SomeClass.cpp
 	
  };
  // ...
- SomeClass ** SomeClass::createSomeClass()
+ SomeClass * SomeClass::createSomeClass()
  {
  	return new SomeClassImpl();
  }
