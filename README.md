@@ -1,7 +1,7 @@
 # ADVA SOFT Code conventions
 
 ## 1. **namespace algotest** (all small letters with "_" if more than one word)
-   It is recommended to store all classes in namespace retouch in "retouch" folder
+   It is recommended to store all classes in namespace xyz in "xyz" folder and it's subfolders
 
 ## 2. **class SomeAlgorithm** (Each word starts from a capital letter)
    .h and .cpp file name should correspond to the main class in the file (RetouchAlgorithm.h RetouchAlgorithm.cpp)
