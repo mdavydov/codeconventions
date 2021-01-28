@@ -8,10 +8,10 @@
    .h file can contain several class definitions if they are auxiliary for the main class
 
 ## 3. **struct SomeStruct** (structures that can be copied field-by-field _MAY_ start from "T" letter)
-   .h file should be named without prefix "SomeStruct.h"
+   .h file should be named without prefix, for example "SomeStruct.h"
 
 ## 4. **template<class T> SomeTemplateClass** (template classes can have prefix "T": template<class T> TException)
-   .h file should be named without prefix "SomeTemplateClass.h"
+   .h file should be named without prefix, for example "SomeTemplateClass.h"
 
 ## 5. **void getMoreInformation()** (class members. Java standard - first word starts from a small letter, all other - from a capital one)
 	member name should be as informative as possible and not very long
@@ -38,7 +38,7 @@
 
 ## **1. Use treat warning-as-error compilation with level 4 warning. Code should be compiled without warnings.**
 
-## **2. Do not use library if you are not sure it is available on iOs, MacOS, Windows and Android**
+## **2. Do not use library if you are not sure it is available on iOS, MacOS, Windows and Android**
 
 ## **3. Always write comment if you are not sure that your code works fine and is easy to understand**
 
