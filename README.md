@@ -108,7 +108,7 @@
 ## **13. Never return error status if error is not supposed to be handled in a calling function**
     Example 14 1 Error or Exception
 <pre>
-    bool add_user_to_db(const CUser& user) throw(CommonException);
+    bool add_user_to_db(const CUser& user)
     {
         try
         {
@@ -123,8 +123,9 @@
         return true;
     }
 
-  // GOOD: exception
-  void add_user_to_db(const CUser& user) throw(CDatabaseException);
+  /// GOOD: exception
+  /// @throws CDatabaseException
+  bool add_user_to_db(const CUser& user) 
 </pre>
 
 ## **14. Write throw(Exc1, Exc1) specification only if you are 100% sure about all possible exceptions.**
@@ -161,4 +162,4 @@ SomeClass.cpp
 
 ## **16. NEVER STORE REFERENCES OR POINTERS TO FIELDS OF ANOTHER CLASS**
 
-## **17. If some function returns pointer to an object, explain, how should it be released**
+## **17. If some function returns pointer to an object, explain, how it should be released**
