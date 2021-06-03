@@ -123,7 +123,6 @@
         return true;
     }
 
-  /// GOOD: exception
   /// @throws CDatabaseException
   bool add_user_to_db(const CUser& user) 
 </pre>
